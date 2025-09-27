@@ -1,0 +1,88 @@
+/* Reset and basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #003366;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* About & Programs */
+.about h2,
+.programs h2,
+.contact h2 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.programs ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.programs li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #0055aa;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 5px solid #0055aa;
+}
